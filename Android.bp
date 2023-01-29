@@ -435,6 +435,13 @@ dex_import {
 }
 
 dex_import {
+	name: "vendor.qti.ims.factory-V2.2-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "vendor.qti.ims.rcssip-V1.0-java",
 	owner: "motorola",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcssip-V1.0-java.jar"],
@@ -449,6 +456,13 @@ dex_import {
 }
 
 dex_import {
+	name: "vendor.qti.ims.rcssip-V1.2-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcssip-V1.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "vendor.qti.ims.rcsuce-V1.0-java",
 	owner: "motorola",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar"],
@@ -459,6 +473,13 @@ dex_import {
 	name: "vendor.qti.ims.rcsuce-V1.1-java",
 	owner: "motorola",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsuce-V1.2-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar"],
 	system_ext_specific: true,
 }
 
