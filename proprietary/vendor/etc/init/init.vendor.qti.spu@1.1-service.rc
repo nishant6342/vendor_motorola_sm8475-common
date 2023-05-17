@@ -4,10 +4,10 @@
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #####################################################################
 
-on boot && property:ro.boot.product.vendor.sku=lahaina
+on boot && property:ro.boot.product.vendor.sku=taro
     start spu_service
 
-on boot && property:ro.boot.product.vendor.sku=taro
+on boot && property:ro.product.device=anorak
     start spu_service
 
 on boot && property:ro.boot.product.vendor.sku=cape

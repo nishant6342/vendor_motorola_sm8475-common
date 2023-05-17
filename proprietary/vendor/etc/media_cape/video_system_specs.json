@@ -23,7 +23,7 @@
             // encoder csc enable
             "enc_csc_enable": false,
             // perf hints support for decoder and encoder
-            "perf_control_enable": false,
+            "perf_control_enable": true,
             // this enables pipeline code for querying capabilities and creating codecs
             "pipelining": true,
             // this enables pre-processing pipeline
@@ -32,7 +32,13 @@
             // support.
             "enc_vpss_flip": true,
             // this enables RGB conversion with image convertor
-            "rgb_image_converter": true
+            "rgb_image_converter": true,
+            // this will enable the graphics pipeline for
+            // CSC and converting images to other format and
+            // Rotating the frame etc
+            "vtxr_enable": true,
+            // this will enable software I/O chache coherency
+            "sw_cache_coherency": false
         },
         "Presets": {
             // this is used for secure decoding performance boost handling

@@ -7,7 +7,6 @@
 ******************************************************************************/
 -->
 <Configuration>
-  <Tracker3_5 enabled="true" />
-  <SFConfig>
+   <SFConfig>
   </SFConfig>
 </Configuration>

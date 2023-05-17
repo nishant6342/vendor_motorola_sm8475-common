@@ -30,7 +30,6 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
     { "classId":"102", "name":"SCPassThrough", "permissions":[] },
     { "classId":"119", "name":"Platform Feature Management", "permissions":[] },
     { "classId":"120", "name":"QWESTA Services", "permissions":[] },
-    { "classId":"275", "name":"connectionsecurity service", "permissions":[] },
     { "classId":"146", "name":"TLOC Service", "permissions":[] }
   ]
 }

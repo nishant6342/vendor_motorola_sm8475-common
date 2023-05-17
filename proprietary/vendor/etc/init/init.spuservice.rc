@@ -10,6 +10,9 @@ on boot && property:ro.boot.product.vendor.sku=taro
 on boot && property:ro.boot.product.vendor.sku=cape
     start spuservice
 
+on boot && property:ro.product.device=anorak
+    start spuservice
+
 service spuservice /vendor/bin/hw/vendor.qti.spu@2.0-service
     class hal
     user system

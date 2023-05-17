@@ -1,5 +1,5 @@
 ##############################################################################
-# Copyright (c) 2016-2021 Qualcomm Technologies, Inc.
+# Copyright (c) 2016-2022 Qualcomm Technologies, Inc.
 # All Rights Reserved
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 ##############################################################################
@@ -33,7 +33,7 @@
 #plugin_eye_tracking_operating_mode = default
 
 # Host controller Plugin related configurations
-plugin_host_controller_lib = libqvr_hostcontroller_plugin.so
+#plugin_host_controller_lib = libqvr_hostcontroller_plugin.so
 
 # Tracker library
 6dof_tracker_lib = libtracker_6dof_skel_8250.so

@@ -45,7 +45,8 @@ fi
 target=`getprop ro.board.platform`
 case "$target" in
     "neo")
-        setprop vendor.mm.target.enable.qcom_parser 0
+        setprop vendor.mm.target.enable.qcom_parser 1040463
+        setprop vendor.netflix.bsp_rev ""
         case "$soc_hwid" in
             *)
                 setprop vendor.media.target_variant "_neo"
@@ -53,13 +54,20 @@ case "$target" in
         esac
         ;;
     "parrot")
+        #Begin, chenmf5, IKSWT-56674, re-customize the qcom' parser to enable
+        #PARSER_AC3,PARSER_AVI,PARSER_3G2,PARSER_MP2TS,WAV,FLAC for QSS
+        setprop vendor.mm.target.enable.qcom_parser 201250
+        #End, chenmf5, IKSWT-56674
         setprop vendor.media.target_variant "_parrot_v2"
-        setprop vendor.netflix.bsp_rev ""
         sku_ver=`cat /sys/devices/platform/soc/aa00000.qcom,vidc/sku_version` 2> /dev/null
         if [ $sku_ver -eq 0 ]; then
             setprop vendor.media.target_variant "_parrot_v0"
         elif [ $sku_ver -eq 1 ]; then
             setprop vendor.media.target_variant "_parrot_v1"
+        fi
+
+        if [ $build_codename -le "13" ]; then
+            setprop vendor.netflix.bsp_rev "Q6450-36256-1"
         fi
         ;;
     "taro")
@@ -83,6 +91,9 @@ case "$target" in
                 if [ $build_codename -le "13" ]; then
                     setprop vendor.netflix.bsp_rev "Q7450-35705-1"
                 fi
+                ;;
+            591)
+                setprop vendor.media.target_variant "_ukee"
                 ;;
             530|531|540)
                 setprop vendor.media.target_variant "_cape"
@@ -116,10 +127,20 @@ case "$target" in
                 ;;
         esac
         ;;
+    "bengal")
+        setprop vendor.mm.target.enable.qcom_parser 0
+        case "$soc_hwid" in
+            518|561|585|586)
+                setprop vendor.media.target_variant "_khaje_v0"
+        esac
+        ;;
     "holi")
         setprop vendor.media.target_variant "_holi"
         ;;
     "msmnile")
         setprop vendor.media.target_variant "_msmnile"
+        ;;
+    "monaco")
+        setprop vendor.media.target_variant "_monaco"
         ;;
 esac

@@ -12,8 +12,8 @@ service qvrd_vndr /vendor/bin/hw/qvrservice
     class late_start
     user system
     group system camera graphics usb
-    socket qvrservice_vndr stream 0777 system system
-    socket qvrservice_vndr_camera stream 0777 system system
+    socket qvrservice_vndr stream 0660 system system
+    socket qvrservice_vndr_camera stream 0660 system camera
     capabilities SYS_NICE
 
 on boot

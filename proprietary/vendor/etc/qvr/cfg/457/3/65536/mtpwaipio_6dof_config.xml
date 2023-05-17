@@ -7,8 +7,6 @@
 ******************************************************************************/
 -->
 <Configuration>
-  <Tracker3_5 enabled="true" />
-  <ValidateTimestamps enabled="true" fatalIMUAfterCamera_ms="2147483647" fatalTimeBetweenFrames_ms="2147483647" fatalTimeBetweenImuSamples_ms="2147483647" />
-  <SFConfig>
+   <SFConfig>
   </SFConfig>
 </Configuration>

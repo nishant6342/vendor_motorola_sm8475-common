@@ -23,7 +23,7 @@
 #plugin_eye_tracking_lib =
 
 # Host controller Plugin related configurations
-plugin_host_controller_lib = libqvr_hostcontroller_plugin.so
+#plugin_host_controller_lib = libqvr_hostcontroller_plugin.so
 
 # Controls how/when eye tracking is started/stopped:
 #   "default"    : eye tracking mode (enable/disable) must be set prior to
