@@ -45,25 +45,25 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
-//cc_prebuilt_library_shared {
-//	name: "libar-pal",
-//	owner: "motorola",
-//	strip: {
-//		none: true,
-//	},
-//	target: {
-//		android_arm: {
-//			srcs: ["proprietary/vendor/lib/libar-pal.so"],
-//		},
-//		android_arm64: {
-//			srcs: ["proprietary/vendor/lib64/libar-pal.so"],
-//		},
-//	},
-//	compile_multilib: "both",
-//	check_elf_files: false,
-//	prefer: true,
-//	soc_specific: true,
-//}
+cc_prebuilt_library_shared {
+	name: "libar-pal",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libar-pal.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libar-pal.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
 
 cc_prebuilt_library_shared {
 	name: "libats",
