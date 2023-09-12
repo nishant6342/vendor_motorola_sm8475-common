@@ -110,8 +110,8 @@
         <!-- qvr level cpu1 gpu1 -->
         <!-- B CPU - Cluster min freq ~0.988 Ghz -->
         <!-- B CPU - Cluster max freq ~1.209 Ghz -->
-        <!-- L CPU - Cluster min freq ~1.363 Ghz -->
-        <!-- L CPU - Cluster max freq ~1.478 Ghz -->
+        <!-- L CPU - Cluster min freq ~.595 Ghz -->
+        <!-- L CPU - Cluster max freq ~1.286 Ghz -->
         <!-- P CPU - PRIME CPU min freq ~0.940 Ghz-->
         <!-- P CPU - PRIME CPU max freq ~1.171 Ghz -->
         <!-- GPU - min pwrlevel B (freq 220 Mhz) -->
@@ -121,7 +121,7 @@
         <!-- Indefinite Duration -->
         <Config
             Id="0x0000130A" Enable="true" Target="taro" Timeout="0"
-            Resources="0x40800000, 0x3E6, 0x40804000, 0x4B9, 0x40800100, 0x0, 0x40804100, 0xFFF,
+            Resources="0x40800000, 0x3E6, 0x40804000, 0x4B9, 0x40800100,  0x253, 0x40804100, 0x506,
             0x40800200, 0x3AC, 0x40804200, 0x493, 0x4280C000, 0xDC, 0x42810000, 0x11D, 0x41000000, 0x3,
             0x41000200, 0x1"/>
 
@@ -204,12 +204,12 @@
             0x41000200, 0x1"/>
 
         <!-- qvr level cpu2 gpu2 -->
-        <!-- B CPU - Cluster min freq ~1.324 Ghz -->
-        <!-- B CPU - Cluster max freq ~1.651 Ghz -->
-        <!-- L CPU - Cluster min freq ~1.574 Ghz -->
-        <!-- L CPU - Cluster max freq ~1.689 Ghz -->
-        <!-- P CPU - PRIME CPU min freq ~1.286 Ghz-->
-        <!-- P CPU - PRIME CPU max freq ~1.612 Ghz -->
+        <!-- B CPU - Cluster min freq ~.902 Ghz -->
+        <!-- B CPU - Cluster max freq ~2.092 Ghz -->
+        <!-- L CPU - Cluster min freq ~.595 Ghz -->
+        <!-- L CPU - Cluster max freq ~1.286 Ghz -->
+        <!-- P CPU - PRIME CPU min freq ~.921 Ghz-->
+        <!-- P CPU - PRIME CPU max freq ~2.112 Ghz -->
         <!-- GPU - min pwrlevel 9 (freq 317 Mhz) -->
         <!-- GPU - max pwrlevel 8 (freq 350 Mhz) -->
         <!-- Min Big CPUs 3 -->
@@ -217,8 +217,8 @@
         <!-- Indefinite Duration -->
         <Config
             Id="0x0000130E" Enable="true" Target="taro" Timeout="0"
-            Resources="0x40800000, 0x52C, 0x40804000, 0x673, 0x40800100, 0x0, 0x40804100, 0xFFF,
-            0x40800200, 0x506, 0x40804200, 0x64C, 0x4280C000, 0x13D, 0x42810000, 0x15E, 0x41000000, 0x3,
+            Resources="0x40800000, 0x386, 0x40804000, 0x82C, 0x40800100, 0x253, 0x40804100, 0x506,
+            0x40800200, 0x399, 0x40804200, 0x840, 0x4280C000, 0x13D, 0x42810000, 0x15E, 0x41000000, 0x3,
             0x41000200, 0x1"/>
 
         <Config

@@ -260,7 +260,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/display/DPU7__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU7__.xml \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/display/DPU820.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU820.xml \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/display/DPU830.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU830.xml \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/display/DPU860.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU860.xml \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/display/DPU8__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU8__.xml \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/display/DPU9__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU9__.xml \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
@@ -368,6 +370,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/pwr/StandbyFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/StandbyFeature.xml \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/pwr/VendorScenarioPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VendorScenarioPowerOptFeature.xml \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/qcom_widevine_licenses.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/qcom_widevine_licenses.pfm \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/qcril_database/upgrade/config/10.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/10.0_config.sql \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/qcril_database/upgrade/config/11.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/11.0_config.sql \
@@ -447,6 +450,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/qvr_hid_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_hid_device_list.txt \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/qvr_usb_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_usb_device_list.txt \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/tuning/qvrservice_abf10238_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_abf10238_tuning.json \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/tuning/qvrservice_asf10338a_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_asf10338a_tuning.json \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/tuning/qvrservice_asf10338b_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_asf10338b_tuning.json \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/tuning/qvrservice_bbf10138_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_bbf10138_tuning.json \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/tuning/qvrservice_br015b_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_br015b_tuning.json \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/tuning/qvrservice_imx476_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_imx476_tuning.json \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/tuning/qvrservice_obf2259_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_obf2259_tuning.json \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/tuning/qvrservice_obf2260_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_obf2260_tuning.json \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/tuning/qvrservice_ov7251_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_ov7251_tuning.json \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/tuning/qvrservice_ov9282_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_ov9282_tuning.json \
+    vendor/motorola/sm8475-common/proprietary/vendor/etc/qvr/tuning/qvrservice_v4l_ov7251_tuning.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/tuning/qvrservice_v4l_ov7251_tuning.json \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.base-arm.policy \
@@ -1068,6 +1082,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libsensor_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_calibration.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
+    vendor/motorola/sm8475-common/proprietary/vendor/lib64/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsfplugin_ccodec_utils.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libshsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libshsc.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libshsusr_verinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libshsusr_verinfo.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsi.so \
@@ -1143,6 +1158,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/qcrilInterfaces.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrilInterfaces.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/qcrilMarshal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrilMarshal.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/qcrilNrQmiModule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrilNrQmiModule.so \
+    vendor/motorola/sm8475-common/proprietary/vendor/lib64/qcril_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcril_client.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/qcrild_libqcrilnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_libqcrilnr.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/qcrild_libqcrilnrutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_libqcrilnrutils.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/qti.video.utils.videobufferlayout.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qti.video.utils.videobufferlayout.so \
