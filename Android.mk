@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter eqs,$(TARGET_DEVICE)),)
+ifneq ($(filter eqs zeekr,$(TARGET_DEVICE)),)
 
 endif
