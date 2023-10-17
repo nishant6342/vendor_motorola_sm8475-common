@@ -12,14 +12,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libagm.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libagm.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -32,14 +29,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libar-gsl.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libar-gsl.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -52,14 +46,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libar-pal.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libar-pal.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -72,14 +63,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libats.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libats.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -92,14 +80,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libfastcvopt.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libfastcvopt.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -112,14 +97,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/liblx-osal.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/liblx-osal.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -132,14 +114,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libthermalclient.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -152,14 +131,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libvmmem.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libvmmem.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -172,14 +148,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
