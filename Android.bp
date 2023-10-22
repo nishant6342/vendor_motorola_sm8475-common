@@ -310,13 +310,6 @@ dex_import {
 }
 
 dex_import {
-	name: "moto-telephony",
-	owner: "motorola",
-	jars: ["proprietary/system_ext/framework/moto-telephony.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "com.qti.dpmframework",
 	owner: "motorola",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
@@ -334,6 +327,13 @@ dex_import {
 	name: "qcrilhook",
 	owner: "motorola",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qti-telephony-common",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
 	system_ext_specific: true,
 }
 
@@ -496,15 +496,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.perf",
-	owner: "motorola",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "vendor.qti.hardware.qconfig@1.0-service",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.qconfig@1.0-service.xml",
@@ -526,15 +517,6 @@ prebuilt_etc_xml {
 	name: "vendor.qti.hardware.radio.ims",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.radio.ims.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.qti.hardware.servicetracker@1.2-service",
-	owner: "motorola",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
