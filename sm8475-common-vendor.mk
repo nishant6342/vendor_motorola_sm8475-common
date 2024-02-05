@@ -12,10 +12,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/motorola/sm8475-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/motorola/sm8475-common/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
-    vendor/motorola/sm8475-common/proprietary/system_ext/bin/qspmsvc:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/qspmsvc \
     vendor/motorola/sm8475-common/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/motorola/sm8475-common/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
-    vendor/motorola/sm8475-common/proprietary/system_ext/etc/init/qspmsvc.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/qspmsvc.rc \
     vendor/motorola/sm8475-common/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/motorola/sm8475-common/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
     vendor/motorola/sm8475-common/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
@@ -25,17 +23,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/motorola/sm8475-common/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.ant@1.0.so \
-    vendor/motorola/sm8475-common/proprietary/system_ext/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmosal.so \
-    vendor/motorola/sm8475-common/proprietary/system_ext/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmparser_lite.so \
-    vendor/motorola/sm8475-common/proprietary/system_ext/lib/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.diaghal@1.0.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvideocodec.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
-    vendor/motorola/sm8475-common/proprietary/system_ext/lib64/libDiagService.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libDiagService.so \
-    vendor/motorola/sm8475-common/proprietary/system_ext/lib64/libdiag_system.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.qti.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmctmgr.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmfdmgr.so \
@@ -45,11 +38,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmosal.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmparser_lite.so \
-    vendor/motorola/sm8475-common/proprietary/system_ext/lib64/libqspmsvc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqspmsvc.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.1.so \
-    vendor/motorola/sm8475-common/proprietary/system_ext/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qspmhal@1.0.so \
     vendor/motorola/sm8475-common/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/motorola/sm8475-common/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/motorola/sm8475-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
@@ -135,7 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/motorola/sm8475-common/proprietary/vendor/bin/vendor.dpmd:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.dpmd \
     vendor/motorola/sm8475-common/proprietary/vendor/bin/vendor.qti.hardware.soter@1.0-provision:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.qti.hardware.soter@1.0-provision \
-    vendor/motorola/sm8475-common/proprietary/vendor/bin/vendor.qti.qspmhal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.qti.qspmhal@1.0-service \
     vendor/motorola/sm8475-common/proprietary/vendor/bin/vppservice:$(TARGET_COPY_OUT_VENDOR)/bin/vppservice \
     vendor/motorola/sm8475-common/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/motorola/sm8475-common/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
@@ -206,7 +196,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/init.embmssl_server.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.embmssl_server.rc \
-    vendor/motorola/sm8475-common/proprietary/vendor/etc/init/init.maxe.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.maxe.rc \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/init.qdmastats.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qdmastats.rc \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/init.qti.media.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.media.rc \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/init.spdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.spdaemon.rc \
@@ -248,7 +237,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
-    vendor/motorola/sm8475-common/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/vendor.sensors.qesdk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qesdk.rc \
@@ -256,11 +244,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/media_cape/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_cape/video_system_specs.json \
-    vendor/motorola/sm8475-common/proprietary/vendor/etc/media_diwali_v0/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_diwali_v0/video_system_specs.json \
-    vendor/motorola/sm8475-common/proprietary/vendor/etc/media_diwali_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_diwali_v1/video_system_specs.json \
-    vendor/motorola/sm8475-common/proprietary/vendor/etc/media_diwali_v2/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_diwali_v2/video_system_specs.json \
-    vendor/motorola/sm8475-common/proprietary/vendor/etc/media_taro/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_taro/video_system_specs.json \
-    vendor/motorola/sm8475-common/proprietary/vendor/etc/media_ukee/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_ukee/video_system_specs.json \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
@@ -369,7 +352,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/seccomp_policy/modemManager.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/modemManager.policy \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/seccomp_policy/qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdk.policy \
-    vendor/motorola/sm8475-common/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/seccomp_policy/qvr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qvr@2.0.policy \
     vendor/motorola/sm8475-common/proprietary/vendor/etc/seccomp_policy/sensors-qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/sensors-qesdk.policy \
@@ -384,138 +366,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/motorola/sm8475-common/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
     vendor/motorola/sm8475-common/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/egl/libVkLayer_ADRENO_qprofiler.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libVkLayer_ADRENO_qprofiler.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/hw/audio.primary.taro-moto.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.taro-moto.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/hw/sound_trigger.primary.taro.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.taro.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.adreno.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPQTEEC_vendor.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPTEE_vendor.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel_svc.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libQTEEConnector_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_listener.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/lib_bt_aptx.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bt_aptx.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/lib_bt_ble.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bt_ble.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/lib_bt_bundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bt_bundle.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libadreno_app_profiles.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_app_profiles.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-acdb.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-gpr.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libaualgo_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaualgo_foundation.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libaualgo_sst_component.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaualgo_sst_component.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libbluetooth_audio_session_qti_2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti_2_1.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libcapiv2svacnnvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnnvendor.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libcapiv2svarnnvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnnvendor.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libcv_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcv_common.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libcvp2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp2_1.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libcvpcpuRev_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvpcpuRev_skel.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiagjni.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libdlbpreg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdlbpreg.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libeai_fixed_32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeai_fixed_32.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libeva.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeva.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvdsp_stub.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjnihelper.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libkcl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkcl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libkernelmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkernelmanager.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterprovision.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/liblistensoundmodel2vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2vendor.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qgl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblx-ar_util.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libmcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmcs.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminkdescriptor.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libnetmgrxfrmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgrxfrmutils.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libpal_net_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpal_net_if.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdnotifier.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcbor.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcc_file_agent.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqconfigclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqconfigclient.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqdpr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdpr.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_qmux.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_common_so.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqmi_csvt_srvc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csvt_srvc.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqmi_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_legacy.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqmiextservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiextservices.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqmimotext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmimotext.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqtigefar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigefar.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libqtikeymint.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymint.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker_stub.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorslog.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsapi.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libsoc_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsoc_helper.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspcom.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvppclient.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libvppcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvppcommon.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libvpphcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphcp.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphvx.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libvppimmotion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvppimmotion.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libvpptestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpptestutils.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/qti.video.utils.videobufferlayout.so:$(TARGET_COPY_OUT_VENDOR)/lib/qti.video.utils.videobufferlayout.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib/rfsa/adsp/bm2n00.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n00.bin \
     vendor/motorola/sm8475-common/proprietary/vendor/lib/rfsa/adsp/bm2n01.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n01.bin \
     vendor/motorola/sm8475-common/proprietary/vendor/lib/rfsa/adsp/bm2n02.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n02.bin \
@@ -597,35 +447,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/lib/rfsa/adsp/libtracker_6dof_skel_8250.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libtracker_6dof_skel_8250.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib/rfsa/adsp/libtracker_6dof_skel_8350.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libtracker_6dof_skel_8350.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib/rfsa/adsp/libworker_pool.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libworker_pool.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/soundfx/libdlbvol.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdlbvol.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/soundfx/libmmieffectswrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmmieffectswrapper.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/soundfx/libmsstwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmsstwrapper.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/soundfx/libspeakerbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libspeakerbundle.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswgamedap.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@2.0.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.diaghal@1.0.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.1.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dsp@1.0.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccsyshal@1.0.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.qccsyshal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccsyshal@1.1.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.qccvndhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccvndhal@1.0-halimpl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.qccvndhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccvndhal@1.0.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.qconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qconfig@1.0.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.1.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.2.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.3.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.hardware.vpp@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@2.0.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qspmhal@1.0.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.spu@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.spu@1.0.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.spu@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.spu@1.1.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib/vendor.qti.spu@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.spu@2.0.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
@@ -744,7 +565,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeccfg.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib64/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiagjni.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libdigital-dimming.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdigital-dimming.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayqos.so \
@@ -778,7 +598,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib64/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjnihelper.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libkcl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkcl.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libkernelmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkernelmanager.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
@@ -857,7 +676,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqcodec2_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_platform.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqcodec2_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_utils.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqcodec2_v4l2codec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_v4l2codec.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqconfigclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqconfigclient.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqcrilDataModule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilDataModule.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqcrilNr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilNr.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqcrilNrCellInfoModule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilNrCellInfoModule.so \
@@ -990,7 +808,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/qtiril-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtiril-utils.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/qtiwakelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtiwakelock.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib64/soundfx/libdlbvol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdlbvol.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/soundfx/libmsstwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libmsstwrapper.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/soundfx/libspeakerbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libspeakerbundle.so \
@@ -1136,8 +953,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.qesdhal@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdhal@1.1-impl.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.qesdhal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdhal@1.1.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.qesdsys-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdsys-V1-ndk_platform.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0-impl.so \
-    vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.spu@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.spu@1.0.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.spu@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.spu@1.1.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.spu@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.spu@2.0.so
@@ -1169,9 +984,7 @@ PRODUCT_PACKAGES += \
     uimservicelibrary \
     com.qti.dpmframework \
     dpmapi \
-    moto-telephony \
     qcrilhook \
-    qti-telephony-common \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.ims.connection-V1.0-java \
     vendor.qti.ims.factory-V2.0-java \
@@ -1185,7 +998,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.2-java \
     android.hardware.security.keymint-service-qti \
     dataconnection-saidl \
+    manifest_android.hardware.drm@1.4-service.widevine \
     qtiradio-saidl \
+    vendor.dolby.hardware.dms \
+    vendor.qti.diag.hal.service \
     vendor.qti.gnss-service \
+    vendor.qti.hardware.qconfig@1.0-service \
     vendor.qti.hardware.qxr-service \
-    vendor.qti.hardware.radio.ims
+    vendor.qti.hardware.radio.ims \
+    vendor.qti.hardware.vpp@2.0-service

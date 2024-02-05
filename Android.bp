@@ -14,14 +14,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libagm.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libagm.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -34,14 +31,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libar-gsl.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libar-gsl.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -54,14 +48,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libar-pal.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libar-pal.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -74,14 +65,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libats.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libats.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -94,14 +82,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libfastcvopt.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libfastcvopt.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -114,14 +99,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/liblx-osal.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/liblx-osal.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -134,14 +116,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libthermalclient.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -154,14 +133,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libvmmem.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libvmmem.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -174,14 +150,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -353,23 +326,9 @@ dex_import {
 }
 
 dex_import {
-	name: "moto-telephony",
-	owner: "motorola",
-	jars: ["proprietary/system_ext/framework/moto-telephony.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "qcrilhook",
 	owner: "motorola",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qti-telephony-common",
-	owner: "motorola",
-	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
 	system_ext_specific: true,
 }
 
@@ -469,6 +428,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "manifest_android.hardware.drm@1.4-service.widevine",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "qtiradio-saidl",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/qtiradio-saidl.xml",
@@ -478,9 +446,36 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "vendor.dolby.hardware.dms",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.diag.hal.service",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "vendor.qti.gnss-service",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.hardware.qconfig@1.0-service",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.qconfig@1.0-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -499,6 +494,15 @@ prebuilt_etc_xml {
 	name: "vendor.qti.hardware.radio.ims",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.radio.ims.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.hardware.vpp@2.0-service",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.vpp@2.0-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
