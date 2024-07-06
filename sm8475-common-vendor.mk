@@ -734,6 +734,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqmiextservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiextservices.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqmimotext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmimotext.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
+    vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqms_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqms_client.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqppe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqppe.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtr.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/libqrtrclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtrclient.so \
@@ -861,6 +862,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.data.mwqem@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.mwqem@1.0.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.slm@1.0.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.diaghal@1.0.so \
+    vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.gnss-V3-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss-V3-ndk_platform.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.gnss-V5-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss-V5-ndk_platform.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.gnss-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss-service.so \
     vendor/motorola/sm8475-common/proprietary/vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so \
