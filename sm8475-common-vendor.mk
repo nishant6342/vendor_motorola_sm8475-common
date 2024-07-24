@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmosal.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmparser_lite.so \
+    vendor/motorola/sm8475-common/proprietary/system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ImsRtpService-V1-ndk.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/vendor.qti.ims.callcapabilityaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.callcapabilityaidlservice-V1-ndk.so \
     vendor/motorola/sm8475-common/proprietary/system_ext/lib64/vendor.qti.ims.configaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.configaidlservice-V1-ndk.so \
