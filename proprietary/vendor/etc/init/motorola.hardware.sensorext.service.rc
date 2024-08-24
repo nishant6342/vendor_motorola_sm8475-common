@@ -1,4 +1,0 @@
-service vendor.moto_sensorext /vendor/bin/hw/motorola.hardware.sensorext-service
-    class hal
-    user system
-    group system
