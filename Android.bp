@@ -652,6 +652,24 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "vendor.qti.hardware.servicetracker@1.2-impl",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so"],
+			shared_libs: ["libhidlbase", "libhardware", "libbase", "liblog", "libcutils", "libutils", "vendor.qti.hardware.servicetracker@1.2", "vendor.qti.hardware.servicetracker@1.1", "vendor.qti.hardware.servicetracker@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.soter@1.0-impl",
 	owner: "motorola",
 	strip: {
@@ -10350,6 +10368,13 @@ dex_import {
 }
 
 dex_import {
+	name: "moto-telephony",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/moto-telephony.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "qcrilhook",
 	owner: "motorola",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
@@ -10553,7 +10578,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.security.keymint-service-qti",
+	name: "android.hardware.security.keymint-service-qti.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti.xml",
 	filename_from_src: true,
@@ -10562,7 +10587,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "c2_manifest_vendor_audio",
+	name: "c2_manifest_vendor_audio.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml",
 	filename_from_src: true,
@@ -10571,7 +10596,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "dataconnection-saidl",
+	name: "dataconnection-saidl.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/dataconnection-saidl.xml",
 	filename_from_src: true,
@@ -10580,7 +10605,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.4-service.widevine",
+	name: "manifest_android.hardware.drm@1.4-service.widevine.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
 	filename_from_src: true,
@@ -10589,7 +10614,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "qtiradio-saidl",
+	name: "qtiradio-saidl.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/qtiradio-saidl.xml",
 	filename_from_src: true,
@@ -10598,7 +10623,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.diag.hal.service",
+	name: "vendor.qti.diag.hal.service.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml",
 	filename_from_src: true,
@@ -10607,7 +10632,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.gnss-service",
+	name: "vendor.qti.gnss-service.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml",
 	filename_from_src: true,
@@ -10616,7 +10641,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.perf",
+	name: "vendor.qti.hardware.perf.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml",
 	filename_from_src: true,
@@ -10625,7 +10650,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.qconfig@1.0-service",
+	name: "vendor.qti.hardware.qconfig@1.0-service.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.qconfig@1.0-service.xml",
 	filename_from_src: true,
@@ -10634,7 +10659,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.radio.ims",
+	name: "vendor.qti.hardware.radio.ims.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.radio.ims.xml",
 	filename_from_src: true,
@@ -10643,7 +10668,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.radio.qtiradioconfig",
+	name: "vendor.qti.hardware.radio.qtiradioconfig.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml",
 	filename_from_src: true,
@@ -10652,7 +10677,16 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.vpp@2.0-service",
+	name: "vendor.qti.hardware.servicetracker@1.2-service.xml",
+	owner: "motorola",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.hardware.vpp@2.0-service.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.vpp@2.0-service.xml",
 	filename_from_src: true,
@@ -11194,6 +11228,24 @@ cc_prebuilt_binary {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service"],
 			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhidlbase", "vendor.qti.hardware.sensorscalibrate@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.qti.hardware.servicetracker@1.2-service",
+	owner: "motorola",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service"],
+			shared_libs: ["libhidlbase", "liblog", "libbase", "libhardware", "libutils", "vendor.qti.hardware.servicetracker@1.2", "vendor.qti.hardware.servicetracker@1.1", "vendor.qti.hardware.servicetracker@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
